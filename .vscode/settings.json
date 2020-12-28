@@ -1,0 +1,16 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": true,
+    "cmake.skipConfigureIfCachePresent": true,
+    "cmake.configureSettings": {
+        "CMAKE_MODULE_PATH" : "${workspaceFolder}/cmake",
+        "BUILD_TESTS": true,
+        "INSTALL_GTEST": false,
+        "WARNINGS_AS_ERRORS": true,
+        "USE_CATCH": true,
+        "USE_GTEST": false,
+        "ENABLE_INCLUDE_WHAT_YOU_USE": true,
+        "ENABLE_CLANG_TIDY": true,
+        "ENABLE_CPPCHECK": true
+    }    
+}
