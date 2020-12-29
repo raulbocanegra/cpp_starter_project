@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "C/C++: g++-9 build active file",
-            "command": "/usr/bin/g++-9",
+            "label": "C/C++: Build active file",
+            "command": "${env:CXX}",
             "args": [
                 "-g",
                 "${file}",

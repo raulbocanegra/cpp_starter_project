@@ -1,7 +1,10 @@
 #include "lib_template/lib_template.h"
 #include <iostream>
 
-void lib::hello() 
+namespace lib
 {
-    std::cout << "hello!\n";
+    void hello() 
+    {
+        std::cout << "hello!\n";
+    }
 }

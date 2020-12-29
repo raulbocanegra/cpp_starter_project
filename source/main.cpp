@@ -1,4 +1,4 @@
-#include "lib_template/lib_template.h"
+#include <lib_template/lib_template.h>
 
 int main() {
     lib::hello();

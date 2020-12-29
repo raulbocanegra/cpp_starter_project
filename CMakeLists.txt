@@ -58,6 +58,7 @@ endif()
 
 if(ENABLE_TESTING)
   enable_testing()
+  include(cmake/TestingDependencies.cmake)
 endif()
 
 add_subdirectory(source)
