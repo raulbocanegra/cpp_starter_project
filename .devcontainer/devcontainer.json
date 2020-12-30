@@ -28,7 +28,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "gcc -v",
+	"postCreateCommand": "./.devcontainer/post-create-command.sh",
 	// Comment out this line to run as root instead.
 	"remoteUser": "vscode"
 }
